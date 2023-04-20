@@ -1,4 +1,77 @@
-.activado{
+.active{
     font-weight:bold;
-    background: red;
+    text-emphasis-color: white;
+	border-bottom:4px solid red !important;
 }
+
+#header{
+	background: #E03137;
+	color: white;
+	margin:41px;
+	height: 188px;
+    display: block;
+	line-height: 48px;
+	font-weight: bold;
+	font-size: 19px;
+}
+
+#header h1{
+	display: block;
+	line-height: 159px;
+	font-weight: bold;
+	font-size: 89px;
+}
+
+#nav{
+	padding: 0px;
+	margin: 0px;
+	background: rgba(224, 49, 55, 0.67);
+}
+
+#nav ul{
+	margin: 0px;
+	list-style: none;
+	padding-left: 20px;
+}
+
+#nav ul li{
+	float:left;
+	margin-right: 20px;
+}
+
+#nav ul li a{
+	display: block;
+	color: white;
+	height: 30px;
+	line-height: 29px;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: all 300ms;
+}
+
+#nav ul li a:hover{
+	text-decoration: none;
+	background: #E03137;
+}
+
+
+#main .jumbotron{
+	padding: 50px;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+#footer{
+	margin-top:30px;
+	padding-top: 10px;
+	border-top:1px solid #eee;
+	color: gray;
+}
+
+#form-producto label{
+	margin-top: 10px;
+}
+
+
+
+
