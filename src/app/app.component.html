@@ -1,12 +1,18 @@
 
 <h1> {{title}}</h1>
+<hr>
+<nav>
+      <a [routerLink]="['home']" routerLinkActive="active" >Home</a>&nbsp;
+      <a [routerLink]="['administracion']" routerLinkActive="active">Administración </a>&nbsp;  
+      <a [routerLink]="['empleados']" routerLinkActive="active" >Empleados</a>&nbsp;     
+      <a [routerLink]="['editarempresa']" routerLinkActive="active" >Editar Empresa</a>&nbsp;  
+      <a [routerLink]="['empleados']" routerLinkActive="active">Empleados</a>&nbsp;   
+      <a [routerLink]="['login']" routerLinkActive="active">Login</a>&nbsp;   
+      <a [routerLink]="['historicomantenimiento']" routerLinkActive="active">Historico Mantenimiento</a>&nbsp; 
+      <a [routerLink]="['listaempleados']" routerLinkActive="active">Lista Empleados</a>&nbsp; 
 
-<app-login></app-login>
-<app-administracion></app-administracion>
-<app-editarempresa></app-editarempresa>
-<app-empleados></app-empleados>
-<app-historicomantenimiento></app-historicomantenimiento>
-<app-listaempleados></app-listaempleados>
+</nav>
+
 
 <router-outlet></router-outlet>
 

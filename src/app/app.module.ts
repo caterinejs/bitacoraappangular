@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { Routes, RouterLinkActive } from '@angular/router';
+import {  AppRoutingModule} from './app-routing.module';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdministracionComponent } from './componente/administracion/administracion.component';
 import { EditarempresaComponent } from './componente/editarempresa/editarempresa.component';
@@ -11,7 +12,7 @@ import { ListaempleadosComponent } from './componente/listaempleados/listaemplea
 import { LoginComponent } from './componente/login/login.component';
 import { RegistroempresaComponent } from './componente/registroempresa/registroempresa.component';
 import { RegistrousuarioComponent } from './componente/registrousuario/registrousuario.component';
-
+import { HomeComponent } from './componente/home/home.component';
 
 
 @NgModule({
@@ -24,13 +25,17 @@ import { RegistrousuarioComponent } from './componente/registrousuario/registrou
     ListaempleadosComponent,
     LoginComponent,
     RegistroempresaComponent,
-    RegistrousuarioComponent
+    RegistrousuarioComponent,
+    HomeComponent,
+     
   ],
+
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterLinkActive
   ],
-  providers: [],
+  providers: [AppRoutingModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
