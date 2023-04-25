@@ -1,6 +1,7 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+
 import { AdministracionComponent } from './componente/administracion/administracion.component';
 import { EditarempresaComponent } from './componente/editarempresa/editarempresa.component';
 import { EmpleadosComponent } from './componente/empleados/empleados.component';

@@ -6,7 +6,9 @@
     <nav id="nav" class="col-lg-12">
       <ul>
        <li><a [routerLink]="['home']" routerLinkActive="active"> Home</a>&nbsp;</li> 
-       <li><a [routerLink]="['login']" routerLinkActive="active">Login</a>&nbsp;</li>  
+       <li><a [routerLink]="['login']" routerLinkActive="active">Login</a>&nbsp;</li>
+       <li><a [routerLink]="['registroempresa']" routerLinkActive="active">Registro Empresa</a>&nbsp;</li>  
+      <li><a [routerLink]="['registrousuario']" routerLinkActive="active">Registro Usuario</a>&nbsp;</li> 
        <li><a [routerLink]="['administracion']" routerLinkActive="active">Administración </a>&nbsp;</li>  
        <li><a [routerLink]="['empleados']" routerLinkActive="active" >Empleados</a>&nbsp;</li>     
        <li><a [routerLink]="['editarempresa']" routerLinkActive="active" >Editar Empresa</a>&nbsp;</li>    
@@ -15,10 +17,10 @@
       </ul>
     </nav>
     <section id="main" class="col-lg-12">
-      <h3> hsdfkjhsidhfkjdhsfkjhdskhfdskjhfkjdshf
-        hsdfkjhsidhfkjdhsfkjhdskhfdskjhfkjdshf </h3>
+      <router-outlet></router-outlet>
+        
     </section>
-    
+
     <footer id="footer" class="col-lg-12">
       <p>Bitacora web</p>
     </footer>
