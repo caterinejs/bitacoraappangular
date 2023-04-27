@@ -11,18 +11,21 @@ import { LoginComponent } from './componente/login/login.component';
 import { HomeComponent } from './componente/home/home.component';
 import { RegistroempresaComponent } from './componente/registroempresa/registroempresa.component';
 import { RegistrousuarioComponent } from './componente/registrousuario/registrousuario.component';
-
+import { EmpresasComponent } from './componente/empresas/empresas.component';
+import { MantenimientosComponent } from './componente/mantenimientos/mantenimientos.component';
 const routes: Routes = [
 
   {path:'home', component:HomeComponent },
   {path:'login', component:LoginComponent },
   {path:'administracion', component:AdministracionComponent },
   {path:'empleados', component:EmpleadosComponent},
+  {path:'empresas', component:EmpresasComponent},
   {path:'editarempresa', component:EditarempresaComponent },
   {path:'historicomantenimiento', component:HistoricomantenimientoComponent },
   {path:'registroempresa', component:RegistroempresaComponent},
   {path:'registrousuario', component:RegistrousuarioComponent },
   {path:'listaempleados', component:ListaempleadosComponent },
+  {path:'mantenimientos', component:MantenimientosComponent },
   {path:'**', component:HomeComponent }
 ];
 

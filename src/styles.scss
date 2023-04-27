@@ -51,6 +51,27 @@ main{
     height: -2px;
 }
 
+#login{
+    padding: 84px;
+    display: block;
+    margin: -224px -33px -44px 1257px;
+    text-decoration: none;
+    padding-right: 21px;
+    transition: all 300ms;
+}
+
+#login ul li a{
+    display: block;
+    color: white;
+    height: 6px;
+    line-height: 0px;
+    margin: -33px 12px 21px 0px;
+    text-decoration: none;
+    padding-right: 10px;
+    transition: all 300ms;
+    
+ }
+
 #nav ul{
     margin:0px;
     list-style :none; 
@@ -78,7 +99,7 @@ main{
 footer{
     border-top: 32px solid rgba(224, 49, 55,0.67);
     height: 9px;
-    margin: 155px -3px -58px -1px; 
+    margin: 136px -3px -58px -1px; 
 }
 section{
     
@@ -86,9 +107,17 @@ section{
     color:red;
 }
 p{
-    margin: -24px;
+    margin: -25px;
     margin-inline-start: 21px;
     color: white;
+}
+
+#main .jumbotron{
+	padding: 125px;
+	margin-top: 30px;
+	border-radius: 5px;
+    text-transform: uppercase;
+ 
 }
 
 

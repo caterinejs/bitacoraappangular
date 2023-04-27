@@ -1,0 +1,61 @@
+<div class="register">
+
+    <form class="custom-form" method="post" >
+
+      <h2>Solicitud de Mantenimiento</h2>
+
+      <input 
+        type="date" [(ngModel)]="fecharecibido"  name="fecharecibido" placeholder="Fecha Recibido" 
+        required="required" />
+
+      <input
+        type="nombreempresa" [(ngModel)]="nombreempresa"  name="nombreempresa" placeholder="Nombre Empresa"
+        required="required" />
+
+
+      <select [(ngModel)]="tipodocumento" required placeholder="Tipo Documento" name="Tipo Documento">
+        <option value="" disabled selected hidden>Tipo Documento</option> 
+        <option value="0"> Cédula de ciudadanía</option>
+        <option value="1"> Cédula de extranjería</option>
+        <option value="2"> NIT </option>
+    </select>
+
+
+    <input
+        type="numero" [(ngModel)]="numerodocumento"  name="numerodocumento" placeholder="Numero Documento"
+        required="required" />
+        
+      <input
+      type="tel" [(ngModel)]="telefono"  name="telefono" placeholder="Telefono"
+      required="required" />
+
+      <input
+        type="email" [(ngModel)]="email"  name="email" placeholder="Email"
+        required="required" />
+
+      <input type="direccioninmueble" [(ngModel)]="direccioninmueble" name="direccioninmueble" placeholder="Direccion Inmueble"
+        required="required"/>
+
+        <input type="direccioninmueble" [(ngModel)]="direccioninmueble" name="direccioninmueble" placeholder="Direccion Inmueble"
+        required="required"/>
+
+        <input type="direccioninmueble" [(ngModel)]="direccioninmueble" name="direccioninmueble" placeholder="Direccion Inmueble"
+        required="required"/>
+
+      <input type="categoria" [(ngModel)]="categoria" name="categoria" placeholder="Categoria"
+        required="required"/>
+      
+      <input
+        type="zona" [(ngModel)]="zona"  name="zona" placeholder="Zona"
+        required="required" />   
+
+    <textarea name="descripcion" rows="4" cols="40" placeholder="Descripción" required="required" ></textarea>
+      
+      <input
+        type="file" [(ngModel)]="adjuntararchivo"  name="adjuntararchivo" placeholder="Adjuntar Archivos"
+        required="required" />
+
+      <button type="submit" (click)="register()">Registrarse</button>
+
+    </form>
+  </div>

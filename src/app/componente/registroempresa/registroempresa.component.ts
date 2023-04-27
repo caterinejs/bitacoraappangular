@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EMPTY } from 'rxjs';
 
 @Component({
   selector: 'app-registroempresa',
@@ -6,9 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./registroempresa.component.scss']
 })
 export class RegistroempresaComponent {
+  nit: string='';
+  nombreusuario: string='';
+  telefono: string='';
   email: string='';
   password: string='';
   confirmPassword: string='';
+  tipousuario:string='';
+  tiposuscriptor:string='';
 
   constructor() {}
 

@@ -2,8 +2,20 @@
 
     <form class="custom-form" method="post">
 
-      <h2>Register</h2>
+      <h2>Registro Nueva Empresa</h2>
+
+      <input 
+        type="number" placeholder="Nit" [(ngModel)]="nit"  name="nit" 
+        required pattern="[0-9]" />
+
+      <input
+        type="nombreusuario" [(ngModel)]="nombreusuario"  name="nombreusuario" placeholder="Nombre Empresa"
+        required="required" />
       
+      <input
+        type="telefono" [(ngModel)]="telefono"  name="telefonono" placeholder="Telefono"
+        required="required" />
+
       <input
         type="email" [(ngModel)]="email"  name="email" placeholder="Email"
         required="required" />
@@ -13,8 +25,16 @@
 
       <input type="password" [(ngModel)]="confirmPassword" name="password" placeholder="Repeat the password"
         required="required"/>
+      
+      <input
+        type="tipousuario" [(ngModel)]="tipousuario"  name="tipousuario" placeholder="Tipo Usuario"
+        required="required" />    
+      
+      <input
+        type="tiposuscriptor" [(ngModel)]="tiposuscriptor"  name="tiposuscriptor" placeholder="Tipo Suscriptor"
+        required="required" />
 
-      <button type="submit" (click)="register()">Register</button>
+      <button type="submit" (click)="register()">Registrarse</button>
 
     </form>
   </div>

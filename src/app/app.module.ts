@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterLinkActive } from '@angular/router';
 import {  AppRoutingModule} from './app-routing.module';
 import { FormsModule }   from '@angular/forms';
-import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
 import { AdministracionComponent } from './componente/administracion/administracion.component';
@@ -16,6 +15,8 @@ import { RegistroempresaComponent } from './componente/registroempresa/registroe
 import { RegistrousuarioComponent } from './componente/registrousuario/registrousuario.component';
 import { HomeComponent } from './componente/home/home.component';
 import { CommonModule } from '@angular/common';
+import { EmpresasComponent } from './componente/empresas/empresas.component';
+import { MantenimientosComponent } from './componente/mantenimientos/mantenimientos.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { CommonModule } from '@angular/common';
     RegistrousuarioComponent,
     HomeComponent,
     LoginComponent,
-    //HttpClientModule
+    EmpresasComponent,
+    MantenimientosComponent,
   
   ],
 

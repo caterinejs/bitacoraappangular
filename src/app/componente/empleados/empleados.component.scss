@@ -1,0 +1,40 @@
+
+html,
+body {
+  background: #ecf0f3;
+}
+h2 {
+  display: block;
+  line-height: 0px;
+  font-weight: bold;
+  font-size: 64px;
+  height: 62px;
+  padding: 24px 137px;
+}
+
+.custom-form {
+  min-width: 300px;
+  max-width: 60%;
+  margin: 9px auto;
+
+}
+
+p a {
+  border: none;
+  color: #ffffff;
+  background-color: rgba(224, 49, 55, 0.67);
+  width: 25%;
+  display: block;
+  border-radius: 4.5rem;
+  cursor: pointer;
+  margin-left: 29%;
+  margin-block-start: 16px;
+  text-decoration: none !important;
+  border-bottom: 0px solid red !important;
+  line-height: 28px;
+  font-weight: bold;
+  font-size: 37px;
+  height: 30px;
+  padding: 19px 29px;
+  text-align: center;
+}
